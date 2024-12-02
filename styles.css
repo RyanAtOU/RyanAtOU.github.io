@@ -1,0 +1,147 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px 30px;
+}
+
+    .navbar .logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+    .nav-links li {
+        margin: 0 15px;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+/* Hero Section */
+.hero {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Content Section */
+.content-section {
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .content-section h2 {
+        margin-bottom: 20px;
+    }
+
+/* Introduction Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Project Grid */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+    .project-card h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .project-card p {
+        margin-bottom: 10px;
+    }
+
+    .project-card a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+/* Skills List */
+.skills-list {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 800px;
+    text-align: left;
+}
+
+    .skills-list li {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
